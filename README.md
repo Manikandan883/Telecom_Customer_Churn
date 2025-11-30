@@ -71,39 +71,39 @@ Train-test split with 80/20 ratio
  
  * Logistic Regression
 
-  Accuracy: 73%
-  
-  Recall (Churn): 80%
-  
-  F1-score (Churn): 0.61
+       Accuracy: 73%
+       
+       Recall (Churn): 80%
+       
+       F1-score (Churn): 0.61
 
 * Random Forest (Base Model)
 
-  Accuracy: 79%
-  
-  Precision (Churn): 63%
-  
-  Recall (Churn): 50%
+       Accuracy: 79%
+       
+       Precision (Churn): 63%
+       
+       Recall (Churn): 50%
+     
+* Tuned Random Forest (Best Model) 
 
- * Tuned Random Forest (Best Model) 
-
-  Accuracy: 76%
-  
-  Recall (Churn): 75%
-  
-  Precision (Churn): 53%
-  
-  F1-score (Churn): 0.62
+       Accuracy: 76%
+       
+       Recall (Churn): 75%
+       
+       Precision (Churn): 53%
+       
+       F1-score (Churn): 0.62
 
 This model correctly identifies 3 out of 4 churners — best for business use.
 
  *  XGBoost
 
-  Accuracy: 75%
-  
-  Recall (Churn): 73%
-  
-  F1-score (Churn): 0.61
+        Accuracy: 75%
+        
+        Recall (Churn): 73%
+        
+        F1-score (Churn): 0.61
 
 
 7 Final Feature Importance (From Best Model – Tuned RF)
